@@ -49,4 +49,7 @@ let masRapida =() =>{
     }
   }
   document.getElementById("fastest").innerText = nombreMasrapido;
+  if(document.getElementById("fastest").innerText == "undefined"){
+    document.getElementById("fastest").innerText = "No terminaste ninguna tarea!"
+  }
 }
