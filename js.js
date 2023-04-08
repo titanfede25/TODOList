@@ -7,16 +7,12 @@ let agregar=() =>{
     alert("¡Tenés que escribir algo!");
   } else{
     const objeto      = new Object();
-
-    var parent        = document.createElement("div");
+    let parent        = document.createElement("div");
     let checkBox      = document.createElement("input");
     checkBox.type     = "checkbox";
-
-    var text          = document.createElement("span");
+    let text          = document.createElement("span");
     text.innerText    = inputValue;
-    
     document.getElementById("bigParent").appendChild(parent);
-
 
     objeto.checkBox   = parent.appendChild(checkBox);
     objeto.texto      = parent.appendChild(text);
@@ -28,8 +24,7 @@ let agregar=() =>{
   }
 }
 
-let tachar =(posicion) =>
-{
+let tachar =(posicion) =>{
   if(listToDoList[posicion].checkBox.checked){
     /*lo mismo que listToDoList[posicion].texto.setAttribute("class", "tachado");*/
     listToDoList[posicion].texto.classList.add("tachado");
@@ -41,8 +36,7 @@ let tachar =(posicion) =>
   }
 }
 
-let masRapida =() =>
-{
+let masRapida =() =>{
   let nombreMasrapido;
   let tiempoMasRapido=999999999999999999999999;
   for (let i = 0; i < listToDoList.length; i++) {

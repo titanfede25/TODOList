@@ -1,3 +1,7 @@
-.tachado{
+.tachado
+{
     text-decoration:line-through;
+}
+body{
+   text-align: center;
 }
