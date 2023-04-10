@@ -11,6 +11,7 @@ let agregar=() =>{
     let checkBox      = document.createElement("input");
     checkBox.type     = "checkbox";
     let text          = document.createElement("span");
+
     text.innerText    = inputValue;
     document.getElementById("bigParent").appendChild(parent);
 
@@ -28,6 +29,7 @@ let tachar =(posicion) =>{
   if(listToDoList[posicion].checkBox.checked){
     /*lo mismo que listToDoList[posicion].texto.setAttribute("class", "tachado");*/
     listToDoList[posicion].texto.classList.add("tachado");
+    listToDoList[posicion].texto.classList.add("p");
     listToDoList[posicion].tachado   = new Date();
   }else{
     /*lo mismo que listToDoList[posicion].texto.removeAttribute("class");*/

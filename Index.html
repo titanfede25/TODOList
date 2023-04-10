@@ -7,14 +7,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="cs.css">
 </head>
+
 <body>
+
+    <div class="diseñito">
     <div id="myDIV" class="mb-3">
-        <h2>My To Do List</h2>
+        <p><u>Mi Lista de Tareas</u></p>
         <input type="text" id="myInput" placeholder="Escriba la tarea aquí">
-        <button onclick="agregar()">Agregar</button>
+        <button type="button" onclick="agregar()">Agregar</button>
     </div><br>
-    <div id="bigParent"></div><br>
+    <div class="cajitas2">
+        <div class="cajitas"><div id="bigParent"></div></div><br>
+    </div>
+    
     <button onclick="masRapida()" >Ver tarea más rápida realizada:</button><p id="fastest"></p>
     <script src ="js.js"></script>
+    </div>    
 </body>
+
 </html>

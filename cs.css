@@ -2,6 +2,40 @@
 {
     text-decoration:line-through;
 }
-body{
-   text-align: center;
+html{
+   text-align: left;
+   background: linear-gradient(rgb(168, 168, 241), pink);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
 }
+
+p {
+    font-family: cursive;
+    font-size: 20px;
+}
+.diseñito {
+    background-color: #ffffff9a;
+    padding: 100px 100px; 
+    margin-top: auto;
+    color: rgb(0, 0, 0);/*COLOR DE LA FUENTE*/
+    text-align: center;
+    
+
+}   
+
+/*soyeltexto{
+ width:20%;
+}
+.soyelcheckbox{
+    width:20%;
+    text-align: left;
+}   
+
+.cajitas {
+    width: 40%;
+    text-align: center;
+  }
+  .cajitas {
+    text-align: center;
+  }
+*/
