@@ -23,6 +23,16 @@ p {
 
 }   
 
+button{
+    background-color:rgb(226, 199, 247);
+    border: none;
+    border-radius:10px;
+    outline:none;
+}
+::placeholder{
+    font-family: cursive;
+}
+
 /*soyeltexto{
  width:20%;
 }
